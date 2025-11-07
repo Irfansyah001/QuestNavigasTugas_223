@@ -51,3 +51,8 @@ fun Beranda(
             ) {
                 Text(text = stringResource(tombolTextRes))
             }
+
+            Spacer(Modifier.height(100.dp))
+        }
+    }
+}
