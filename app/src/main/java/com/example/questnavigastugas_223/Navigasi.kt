@@ -17,3 +17,10 @@ fun DataApp(
             startDestination = Navigasi.Beranda.name,
             modifier = Modifier.padding(isiRuang)
         ) {
+            composable(route = Navigasi.Beranda.name) {
+                Beranda(
+                    onMulaiClick = {
+                        navController.navigate(Navigasi.Tampil.name)
+                    }
+                )
+            }
