@@ -14,8 +14,8 @@ import com.example.questnavigastugas_223.R
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TampilData(
-    onKeBeranda: () -> Unit = {},
-    onKeFormulir: () -> Unit = {},
+    onKeBeranda: () -> Unit,
+    onKeFormulir: () -> Unit,
     modifier: Modifier = Modifier
 ) {
 

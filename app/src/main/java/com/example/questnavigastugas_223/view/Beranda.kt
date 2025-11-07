@@ -19,7 +19,7 @@ import com.example.questnavigastugas_223.R
 
 @Composable
 fun Beranda(
-    onMulaiClick: () -> Unit = {},
+    onMulaiClick: () -> Unit,
     modifier: Modifier = Modifier,
     tombolTextRes: Int = R.string.mulai_button
 ) {

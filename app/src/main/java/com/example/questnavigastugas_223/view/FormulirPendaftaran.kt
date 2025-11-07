@@ -34,7 +34,7 @@ import com.example.questnavigastugas_223.R
 
 @Composable
 fun FormulirPendaftaran(
-    onSubmitNav: () -> Unit = {},
+    onSubmitNav: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     var textNama by remember { mutableStateOf("") }
