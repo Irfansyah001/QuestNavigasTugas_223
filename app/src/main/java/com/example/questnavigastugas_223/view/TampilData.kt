@@ -57,3 +57,13 @@ fun TampilData(
             }
 
             Spacer(Modifier.height(100.dp))
+
+            Button(
+                onClick = onKeBeranda,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
+                shape = MaterialTheme.shapes.extraLarge
+            ) {
+                Text(text = stringResource(id = R.string.beranda_button))
+            }
