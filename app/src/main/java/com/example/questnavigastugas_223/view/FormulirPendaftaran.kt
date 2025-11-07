@@ -77,3 +77,11 @@ fun FormulirPendaftaran(
                             .padding(horizontal = 20.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
+                        RadioButton(
+                            selected = textJK == item,
+                            onClick = { textJK = item }
+                        )
+                        Text(item)
+                    }
+                }
+            }
