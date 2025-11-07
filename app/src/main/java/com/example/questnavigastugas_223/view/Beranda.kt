@@ -29,3 +29,5 @@ fun Beranda(
                 contentDescription = null,
                 modifier = Modifier.size(250.dp)
             )
+
+            Spacer(Modifier.height(140.dp))
