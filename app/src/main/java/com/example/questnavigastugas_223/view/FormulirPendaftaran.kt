@@ -140,3 +140,17 @@ fun FormulirPendaftaran(
                 thickness = dimensionResource(R.dimen.thickness_divider),
                 color = Color.DarkGray
             )
+
+            Button(
+                modifier = Modifier
+                    .padding(bottom = 10.dp)
+                    .padding(horizontal = 90.dp)
+                    .fillMaxWidth(),
+                enabled = textAlamat.isNotEmpty(),
+                onClick = onSubmitNav
+            ) {
+                Text(stringResource(R.string.submit))
+            }
+        }
+    }
+}
