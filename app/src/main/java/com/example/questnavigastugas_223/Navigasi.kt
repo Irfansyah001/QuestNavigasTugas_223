@@ -24,3 +24,10 @@ fun DataApp(
                     }
                 )
             }
+
+            composable(route = Navigasi.Tampil.name) {
+                TampilData(
+                    onKeBeranda = { backToBeranda(navController) },
+                    onKeFormulir = { navController.navigate(Navigasi.Formulir.name) }
+                )
+            }
