@@ -41,10 +41,20 @@ fun FormulirPendaftaran(
             colors = CardDefaults.cardColors(containerColor = Color.White),
             border = BorderStroke(5.dp, Color.Black)
         ) {
-            
+
             Text(
                 modifier = Modifier.padding(top = 15.dp, start = 20.dp),
                 fontSize = 18.sp,
                 color = Color.Black,
                 text = stringResource(id = R.string.nama_lengkap)
+            )
+            OutlinedTextField(
+                value = textNama,
+                singleLine = true,
+                shape = MaterialTheme.shapes.medium,
+                modifier = Modifier
+                    .padding(horizontal = 20.dp)
+                    .width(350.dp),
+                label = { Text(text = "Isi Nama Lengkap") },
+                onValueChange = { textNama = it }
             )
