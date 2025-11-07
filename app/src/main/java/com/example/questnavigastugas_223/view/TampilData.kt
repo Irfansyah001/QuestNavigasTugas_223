@@ -39,4 +39,11 @@ fun TampilData(
                     shadowElevation = 2.dp,
                     modifier = Modifier.fillMaxWidth()
                 ) {
-        }
+                    Column(Modifier.padding(16.dp)) {
+                        Text(
+                            text = label.uppercase(),
+                            fontSize = 12.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                
