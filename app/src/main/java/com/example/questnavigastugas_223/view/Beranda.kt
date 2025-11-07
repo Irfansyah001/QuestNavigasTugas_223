@@ -21,3 +21,5 @@ fun Beranda(
                 fontFamily = FontFamily.Monospace,
                 fontWeight = FontWeight.SemiBold
             )
+
+            Spacer(Modifier.height(100.dp))
