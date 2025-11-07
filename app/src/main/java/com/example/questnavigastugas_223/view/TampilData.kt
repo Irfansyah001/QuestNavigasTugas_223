@@ -55,3 +55,5 @@ fun TampilData(
                     }
                 }
             }
+
+            Spacer(Modifier.height(100.dp))
