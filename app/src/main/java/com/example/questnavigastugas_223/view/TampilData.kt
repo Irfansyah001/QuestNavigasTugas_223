@@ -13,4 +13,14 @@ fun TampilData(
         Pair(stringResource(id = R.string.jenis_kelamin), "Laki-laki"),
         Pair(stringResource(id = R.string.status_perkawinan), "Belum Menikah"),
         Pair(stringResource(id = R.string.alamat), "Yogyakarta")
-    )}
+    )
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(text = stringResource(id = R.string.list_daftar_peserta), color = MaterialTheme.colorScheme.onPrimary) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.primary
+                )
+            )
+        }
