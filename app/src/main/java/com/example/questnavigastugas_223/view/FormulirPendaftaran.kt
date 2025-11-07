@@ -18,3 +18,10 @@ fun FormulirPendaftaran(
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
+        Card(
+            modifier = Modifier
+                .width(400.dp)
+                .height(100.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.Black)
+        ) {
