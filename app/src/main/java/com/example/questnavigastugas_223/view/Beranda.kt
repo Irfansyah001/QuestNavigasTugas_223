@@ -41,3 +41,13 @@ fun Beranda(
             )
 
             Spacer(Modifier.weight(1f))
+
+            Button(
+                onClick = onMulaiClick,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
+                shape = MaterialTheme.shapes.extraLarge
+            ) {
+                Text(text = stringResource(tombolTextRes))
+            }
