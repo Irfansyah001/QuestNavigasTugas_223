@@ -31,3 +31,11 @@ fun Beranda(
             )
 
             Spacer(Modifier.height(140.dp))
+
+            Text(text = stringResource(R.string.nama_saya), fontSize = 18.sp)
+            
+            Text(
+                text = stringResource(R.string.nim_saya),
+                fontSize = 14.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
