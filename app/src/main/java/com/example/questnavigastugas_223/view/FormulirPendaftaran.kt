@@ -12,3 +12,9 @@ fun FormulirPendaftaran(
 
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
     val status: List<String> = listOf("Menikah", "Belum Menikah", "Janda", "Lajang", "Duda")
+
+    Column(
+        modifier = modifier.padding(top = 40.dp),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
