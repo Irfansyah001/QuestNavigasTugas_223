@@ -58,3 +58,10 @@ fun FormulirPendaftaran(
                 label = { Text(text = "Isi Nama Lengkap") },
                 onValueChange = { textNama = it }
             )
+
+            Text(
+                modifier = Modifier.padding(top = 15.dp, start = 20.dp),
+                fontSize = 18.sp,
+                color = Color.Black,
+                text = stringResource(id = R.string.jenis_kelamin)
+            )
