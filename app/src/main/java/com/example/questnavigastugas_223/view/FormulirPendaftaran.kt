@@ -65,3 +65,15 @@ fun FormulirPendaftaran(
                 color = Color.Black,
                 text = stringResource(id = R.string.jenis_kelamin)
             )
+            Column {
+                gender.forEach { item ->
+                    Row(
+                        modifier = Modifier
+                            .selectable(
+                                selected = textJK == item,
+                                onClick = { textJK = item }
+                            )
+                            .height(30.dp)
+                            .padding(horizontal = 20.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
