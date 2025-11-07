@@ -3,4 +3,8 @@
     <string name="nama_saya">Irfansyah Ridho Aninda</string>
     <string name="nim_saya">20230140223</string>
     <string name="app_name">QuestNavigasTugas_223</string>
+    <string name="go_button">GO</string>
+    <string name="back_to_home_button">Back to home</string>
+    <string name="pendaftaran_button">Pendaftaran</string>
+    <string name="submit">Submit</string>
 </resources>
