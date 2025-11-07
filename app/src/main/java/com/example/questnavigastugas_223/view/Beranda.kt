@@ -13,3 +13,4 @@ fun Beranda(
                 .padding(horizontal = 24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(Modifier.height(100.dp))
