@@ -23,3 +23,9 @@ fun Beranda(
             )
 
             Spacer(Modifier.height(100.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(250.dp)
+            )
