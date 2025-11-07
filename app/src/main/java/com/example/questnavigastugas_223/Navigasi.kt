@@ -5,3 +5,9 @@ enum class Navigasi {
     Formulir,
     Tampil
 }
+
+@Composable
+fun DataApp(
+    navController: NavHostController = rememberNavController(),
+    modifier: Modifier = Modifier
+) {
