@@ -11,3 +11,9 @@ fun DataApp(
     navController: NavHostController = rememberNavController(),
     modifier: Modifier = Modifier
 ) {
+    Scaffold { isiRuang ->
+        NavHost(
+            navController = navController,
+            startDestination = Navigasi.Beranda.name,
+            modifier = Modifier.padding(isiRuang)
+        ) {
