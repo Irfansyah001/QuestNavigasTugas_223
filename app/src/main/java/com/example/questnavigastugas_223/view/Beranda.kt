@@ -6,3 +6,10 @@ fun Beranda(
     modifier: Modifier = Modifier,
     tombolTextRes: Int = R.string.mulai_button
 ) {
+    Surface(modifier = modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
