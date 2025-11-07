@@ -92,3 +92,15 @@ fun FormulirPendaftaran(
                 color = Color.Black,
                 text = stringResource(id = R.string.status_perkawinan)
             )
+            Column {
+                status.forEach { item ->
+                    Row(
+                        modifier = Modifier
+                            .selectable(
+                                selected = textSP == item,
+                                onClick = { textSP = item }
+                            )
+                            .height(30.dp)
+                            .padding(horizontal = 20.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
