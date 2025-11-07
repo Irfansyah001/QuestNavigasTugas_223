@@ -129,3 +129,14 @@ fun FormulirPendaftaran(
                 label = { Text(text = "Alamat Lengkap") },
                 onValueChange = { textAlamat = it }
             )
+
+            HorizontalDivider(
+                modifier = Modifier
+                    .size(width = 400.dp, height = 30.dp)
+                    .padding(
+                        bottom = dimensionResource(R.dimen.padding_medium),
+                        top = dimensionResource(R.dimen.padding_small)
+                    ),
+                thickness = dimensionResource(R.dimen.thickness_divider),
+                color = Color.DarkGray
+            )
