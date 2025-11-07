@@ -14,3 +14,10 @@ fun Beranda(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Spacer(Modifier.height(100.dp))
+
+            Text(
+                text = stringResource(R.string.selamat_datang),
+                fontSize = 32.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.SemiBold
+            )
