@@ -41,3 +41,10 @@ fun FormulirPendaftaran(
             colors = CardDefaults.cardColors(containerColor = Color.White),
             border = BorderStroke(5.dp, Color.Black)
         ) {
+            
+            Text(
+                modifier = Modifier.padding(top = 15.dp, start = 20.dp),
+                fontSize = 18.sp,
+                color = Color.Black,
+                text = stringResource(id = R.string.nama_lengkap)
+            )
