@@ -46,4 +46,12 @@ fun TampilData(
                             fontWeight = FontWeight.SemiBold,
                             color = MaterialTheme.colorScheme.primary
                         )
-                
+                        Spacer(Modifier.height(4.dp))
+                        Text(
+                            text = value,
+                            fontSize = 18.sp,
+                            fontFamily = FontFamily.SansSerif
+                        )
+                    }
+                }
+            }
