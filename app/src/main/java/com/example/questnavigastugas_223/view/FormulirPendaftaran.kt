@@ -119,3 +119,13 @@ fun FormulirPendaftaran(
                 color = Color.Black,
                 text = stringResource(id = R.string.alamat)
             )
+            OutlinedTextField(
+                value = textAlamat,
+                singleLine = true,
+                shape = MaterialTheme.shapes.medium,
+                modifier = Modifier
+                    .padding(horizontal = 20.dp)
+                    .width(350.dp),
+                label = { Text(text = "Alamat Lengkap") },
+                onValueChange = { textAlamat = it }
+            )
