@@ -9,3 +9,6 @@ fun FormulirPendaftaran(
     var textAlamat by remember { mutableStateOf("") }
     var textJK by remember { mutableStateOf("") }
     var textSP by remember { mutableStateOf("") }
+
+    val gender: List<String> = listOf("Laki-laki", "Perempuan")
+    val status: List<String> = listOf("Menikah", "Belum Menikah", "Janda", "Lajang", "Duda")
