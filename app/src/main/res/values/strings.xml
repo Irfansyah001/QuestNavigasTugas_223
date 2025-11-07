@@ -3,12 +3,15 @@
     <string name="nama_saya">Irfansyah Ridho Aninda</string>
     <string name="nim_saya">20230140223</string>
     <string name="app_name">QuestNavigasTugas_223</string>
-    <string name="go_button">GO</string>
-    <string name="back_to_home_button">Back to home</string>
-    <string name="pendaftaran_button">Pendaftaran</string>
+    <string name="mulai_button">Mulai</string>
+    <string name="beranda_button">Beranda</string>
+    <string name="mulai_pendaftaran_button">Mulai Pendaftaran</string>
     <string name="submit">Submit</string>
     <string name="back">Back</string>
+    <string name="list_daftar_peserta">List Daftar Peserta</string>
     <string name="formulir_pendaftaran">Formulir Pendaftaran</string>
-    <string name="nama_lengkap">NAMA LENGKAP</string>
-    <string name="jenis_kelamin">JENIS KELAMIN</string>
+    <string name="nama_lengkap">Nama Lengkap :</string>
+    <string name="jenis_kelamin">Jenis Kelamin :</string>
+    <string name="status_perkawinan">Status Perkawinan :</string>
+    <string name="alamat">Alamat :</string>
 </resources>
