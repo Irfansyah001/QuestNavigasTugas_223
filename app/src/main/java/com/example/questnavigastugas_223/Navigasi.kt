@@ -31,3 +31,14 @@ fun DataApp(
                     onKeFormulir = { navController.navigate(Navigasi.Formulir.name) }
                 )
             }
+
+            composable(route = Navigasi.Formulir.name) {
+                FormulirPendaftaran(
+                    onSubmitNav = {
+                        navController.navigate(Navigasi.Tampil.name)
+                    }
+                )
+            }
+        }
+    }
+}
