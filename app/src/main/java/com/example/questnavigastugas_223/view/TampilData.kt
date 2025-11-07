@@ -67,3 +67,16 @@ fun TampilData(
             ) {
                 Text(text = stringResource(id = R.string.beranda_button))
             }
+
+            OutlinedButton(
+                onClick = onKeFormulir,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
+                shape = MaterialTheme.shapes.extraLarge
+            ) {
+                Text(text = stringResource(id = R.string.mulai_pendaftaran_button))
+            }
+        }
+    }
+}
