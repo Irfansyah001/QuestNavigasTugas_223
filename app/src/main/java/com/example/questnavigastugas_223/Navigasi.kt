@@ -1,5 +1,17 @@
 package com.example.questnavigastugas_223
 
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Scaffold
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.example.questnavigastugas_223.view.Beranda
+import com.example.questnavigastugas_223.view.FormulirPendaftaran
+import com.example.questnavigastugas_223.view.TampilData
+
 enum class Navigasi {
     Beranda,
     Formulir,
@@ -41,4 +53,8 @@ fun DataApp(
             }
         }
     }
+}
+
+private fun backToBeranda(navController: NavHostController) {
+    navController.popBackStack(Navigasi.Beranda.name, inclusive = false)
 }
