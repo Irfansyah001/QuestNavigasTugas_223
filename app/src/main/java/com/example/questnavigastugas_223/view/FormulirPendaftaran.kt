@@ -85,3 +85,10 @@ fun FormulirPendaftaran(
                     }
                 }
             }
+
+            Text(
+                modifier = Modifier.padding(top = 15.dp, start = 20.dp),
+                fontSize = 18.sp,
+                color = Color.Black,
+                text = stringResource(id = R.string.status_perkawinan)
+            )
