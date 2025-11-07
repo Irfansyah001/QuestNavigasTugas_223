@@ -32,3 +32,12 @@ fun FormulirPendaftaran(
                 text = stringResource(id = R.string.formulir_pendaftaran)
             )
         }
+
+        Card(
+            modifier = Modifier
+                .padding(10.dp)
+                .width(400.dp)
+                .height(600.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White),
+            border = BorderStroke(5.dp, Color.Black)
+        ) {
